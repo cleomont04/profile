@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,600&family=Varela+Round&display=swap');
+
+body {
+  background-color: #E4E3E3;
+  font-family: 'Open Sans';
+  font-size:20px;
+  line-height:20px;
+}
+h1, h2, h3{
+  color:#333366;
+  font-family:'Varela';
+  font-size: 30px;
+  line-height:1.6px;
+}
+
+a:hover{
+  color: #5A3D55;
+}
+
+
+.card{
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: ;
+  width:600px;
+  margin:10px auto;
+  padding:50px;
+
+}
+
+.img-circle{
+  border-radius: ;
+}
+.text-center{
+  text-align: center;
+}
+
+#footer ul {
+  list-style: none;
+  padding-left: 0;
+
+}
+#footer li{
+ display:inline-block;
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
+
+
+
